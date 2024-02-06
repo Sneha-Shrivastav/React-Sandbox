@@ -12,7 +12,7 @@ ReactDOM.render(
   <h1 contentEditable="true">My name is {name}</h1>
   <img src = {img1}  alt = "random Images"/>
   <img src = {img2}  alt = "random Images"/>
-  <a href = {link1} target='_blank'>
+    <a href = {link1} target='_blank'>
   <img src = {img3}  alt = "random Images"/>
   </a>
   </>,
