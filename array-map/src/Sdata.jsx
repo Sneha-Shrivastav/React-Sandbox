@@ -1,17 +1,20 @@
 const Sdata = [
     {
+        id: 1,
         sname: "The Vampire Diaries",
         imgsrc: "https://wallpapercave.com/wp/wp12630943.jpg",
         title: "A Netflix Original Series",
         link: "https://www.netflix.com/watch/70212837?trackId=255824129"
     },
     {
+        id: 2,
         sname: "Stranger Things",
         imgsrc: "https://wallpapercave.com/uwp/uwp3670874.jpeg",
         title: "A Netflix Original Series",
         link: "https://www.netflix.com/watch/80077368?source=35"
     },
     {
+        id: 3,
         sname: "F.R.I.E.N.D.S",
         imgsrc: "https://wallpapercave.com/wp/wp4112166.jpg",
         title: "A Netflix Original Series",
@@ -19,12 +22,14 @@ const Sdata = [
 
     },
     {
+        id: 4,
         sname: "Mismatched",
         imgsrc: "https://wallpapercave.com/wp/wp8268982.jpg",
         title: "A Netflix Original Series",
         link: "https://www.netflix.com/watch/81089276?source=35"
     },
     {
+        id: 5,
         sname: "WEDNESDAY",
         imgsrc: "https://wallpapercave.com/wp/wp11784162.jpg",
         title: "A Netflix Original Series",

@@ -1,24 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Card from './Card';
-import './index.css'
-import Sdata from './Sdata';
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import './index.css'
+// import App from './App';
 
 
 
-ReactDOM.render(
-  <>
-    <h1 className='heading_style'>Sneha's top 5 Netflix Pick</h1>
-    {Sdata.map((val) => {
-      return(
-        <Card
-      imgsrc={val.imgsrc}
-      title={val.title}
-      sname={val.sname}
-      link={val.link}
-    />
-      )
-    })}
-  </>, document.getElementById('root')
+// ReactDOM.render(<App />, document.getElementById('root'));
+
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );
-
